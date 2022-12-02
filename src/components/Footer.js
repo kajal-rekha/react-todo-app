@@ -1,7 +1,9 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 container mx-auto text-center p-10 text-sm text-teal-600 border-t border-dashed border-teal-900">
-      <p>&copy; {new Date().getFullYear()} Kajal Rekha. All rights reserved</p>
+    <footer className="footer p-10 bg-gray-900 container mx-auto rounded-b-lg border-t border-teal-900 border-dashed lg:max-w-4xl">
+      <p className="text-center text-teal-600 text-sm">
+        &copy; {new Date().getFullYear()} Kajal Rekha. All rights reserved
+      </p>
     </footer>
   );
 };

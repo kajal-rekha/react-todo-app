@@ -9,9 +9,9 @@ const TaskItem = ({ task, handleEditSubmitter, editedText, setEditedText }) => {
   const handleEdit = useContext(EditHandlerContext);
 
   return (
-    <div className="task-item flex justify-between items-center bg-gray-800 p-5 rounded hover:bg-gradient-to-r hover:from-teal-800 hover:to-gray-800 group">
+    <div className="task-item flex justify-between items-center bg-gradient-to-r from-gray-800 to-slate-800 p-5 rounded hover:from-teal-900 hover:to-gray-800 group">
       <div className="task-item-left flex gap-3">
-        <span>
+        <span className="self-center">
           <input
             type="checkbox"
             className="accent-teal-400"
@@ -23,7 +23,7 @@ const TaskItem = ({ task, handleEditSubmitter, editedText, setEditedText }) => {
         {task.isEditable && (
           <form onSubmit={(e) => handleEditSubmitter(e, task.id)}>
             <input
-              className="bg-transparent outline-none border-b-2 pb-1 border-gray-500 focus:border-teal-500"
+              className="bg-transparent outline-none border-b-2 border-gray-500 pb-1 w-full focus:border-teal-500"
               type="text"
               required
               value={editedText}

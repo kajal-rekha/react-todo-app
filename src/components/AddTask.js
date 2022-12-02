@@ -33,7 +33,7 @@ const AddTask = ({ tasks, setTasks }) => {
 
   return (
     <form
-      className="bg-gray-900 container mx-auto flex justify-between p-10 "
+      className="bg-gray-900 p-10 container mx-auto flex flex-col gap-5 justify-center items-center md:flex-row md:justify-between lg:max-w-4xl"
       onSubmit={addTaskHandler}
     >
       <input
@@ -43,7 +43,7 @@ const AddTask = ({ tasks, setTasks }) => {
         required
         type="text"
         placeholder="What things to do?"
-        className="bg-transparent outline-none border-b-2 border-gray-400 py-2 px-5 focus:border-teal-600"
+        className="bg-transparent outline-none border-b-2 border-gray-500 py-2 px-5 text-center md:text-left focus:border-teal-400 duration-300"
       />
       <button
         type="submit"
