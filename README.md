@@ -4,7 +4,13 @@ A simple Todo application built with React and Tailwind CSS.
 
 ## Project Description
 
-This project is a simple Todo application that allows you to keep track of your tasks. You can add tasks, mark them as complete, and delete them. This project is only applicable to the front end and utilizes the React framework and the Tailwind CSS library for styling.
+This project is a simple Todo application that allows you to keep track of your tasks. You can add tasks, mark them as complete, and delete them. This project is only applicable to the front end and utilizes the React framework and the Tailwind CSS library for styling. It uses the following API endpoint for fetching and manipulating data:
+
+- API Endpoint: https://leaf-hulking-circle.glitch.me/tasks
+
+You can find the source code for the API server at the following GitHub repository:
+
+- API GitHub: https://github.com/kajal-rekha/todo-app-server.git
 
 ## Project Features
 
@@ -15,8 +21,7 @@ This project is a simple Todo application that allows you to keep track of your 
 
 ## Tools
 
-- React
-- Tailwind CSS
+React, Twilwind CSS
 
 ## Installation
 
@@ -40,11 +45,6 @@ npm install
 4. Start the development server
 
 npm start
-
-##Necessary Links:
-
-    API Endpoint: https://leaf-hulking-circle.glitch.me/tasks
-    API GitHub: https://github.com/kajal-rekha/todo-app-server.git
 
 
 ## Conclusion
