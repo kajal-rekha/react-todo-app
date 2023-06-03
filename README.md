@@ -14,10 +14,11 @@ You can find the source code for the API server at the following GitHub reposito
 
 ## Project Features
 
-- Add tasks
-- Mark tasks as complete
-- Delete tasks
-- Responsive design
+## Features
+
+- **Proper Handling of Async Actions for CRUD**:Ensures proper handling of asynchronous actions for Create, Read, Update, and Delete operations.
+- **Seamless Integration with JSON Server**: Integration with a JSON server for smooth data handling and management.
+- **Seamless Task Retrieval from Local Storage**: Tasks are seamlessly retrieved from the client's local storage for quick access and persistence.
 
 ## Tools
 
