@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# React Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple Todo application built with React and Tailwind CSS.
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+This project is a simple Todo application that allows you to keep track of your tasks. You can add tasks, mark them as complete, and delete them. This project is only applicable to the front end and utilizes the React framework and the Tailwind CSS library for styling. It uses the following API endpoint for fetching and manipulating data:
 
-### `npm start`
+- API Endpoint: https://leaf-hulking-circle.glitch.me/tasks
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can find the source code for the API server at the following GitHub repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- API GitHub: https://github.com/kajal-rekha/todo-app-server.git
 
-### `npm test`
+## Project Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- **Proper Handling of Async Actions for CRUD**:Ensures proper handling of asynchronous actions for Create, Read, Update, and Delete operations.
+- **Seamless Integration with JSON Server**: Integration with a JSON server for smooth data handling and management.
+- **Seamless Task Retrieval from Local Storage**: Tasks are seamlessly retrieved from the client's local storage for quick access and persistence.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tools
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React, Twilwind CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+1. Clone this repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`
+git clone https://github.com/kajal-rekha/react-todo-app.git
+`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`
+cd react-todo-app`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+3. Install dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm install
 
-### Code Splitting
+4. Start the development server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm start
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Conclusion
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is a simple Todo application that serves as a great starting point for anyone looking to get into React development. It utilizes the power of the React framework and the simplicity of Tailwind CSS to create a responsive and user-friendly application.
