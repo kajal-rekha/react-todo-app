@@ -9,7 +9,7 @@ const TaskList = ({
   setEditedText,
 }) => {
   return (
-    <div className="task-list flex flex-col gap-3 p-10 container bg-gray-900 mx-auto lg:max-w-4xl">
+    <div className="task-list flex flex-col gap-3 p-10 container bg-gray-900 mx-auto lg:max-w-6xl">
       {loading ? (
         <p className="text-center">{error ? error : "Loading..."}</p>
       ) : (

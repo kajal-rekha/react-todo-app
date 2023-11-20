@@ -33,7 +33,7 @@ const AddTask = ({ tasks, setTasks }) => {
 
   return (
     <form
-      className="bg-gray-900 p-10 container mx-auto flex flex-col gap-5 justify-center items-center md:flex-row md:justify-between lg:max-w-4xl"
+      className="bg-gray-900 p-10 container mx-auto flex flex-col gap-5 justify-center items-center md:flex-row md:justify-between lg:max-w-6xl"
       onSubmit={addTaskHandler}
     >
       <input
